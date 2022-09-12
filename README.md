@@ -13,7 +13,10 @@ What you get:
 ### Getting started
 To get going, just fork this project and open it in [Gitpod](https://www.gitpod.io/docs/getting-started).
 
-The first time you start a Gitpod workspace for your new project, `yarn init` gets run automatically. Provide some info about your project to the prompts like you normally would, and then a script will install dependencies and modify your `package.json` to get everything set up so you can start coding right away.
+The first time you start a Gitpod workspace for your new project:
+- `yarn init` gets run automatically
+- Provide some info about your project to the prompts, or just use defaults and edit things later if needed.
+- Then a script will install dependencies and modify your `package.json` to get everything set up so you can start coding right away.
 
 ### Publishing
 
