@@ -26,6 +26,6 @@ If you'd like to publish manually, you can also set your npm token as an [enviro
 
 ### Make it your own
 
-Want different configs ESlint/Jest/Rollup/etc. - or entirely different dependencies? You can use this as a starting point for your own typescript library Gitpod starter.
+Want different configs for ESlint/Jest/Rollup/etc. - or entirely different dependencies? You can use this as a starting point for your own typescript library Gitpod starter.
 
 Think something is missing from this repo? Feel free to create an issue or open a PR. I'd like to keep this pretty generic, but welcome improvements and ideas for other features.
