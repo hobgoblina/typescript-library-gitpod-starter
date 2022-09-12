@@ -2,6 +2,8 @@
 
 yarn init
 
+yarn global add json npm-add-script
+
 yarn json -I -f package.json -e "this.main=\"dist/bundle.cjs.js\""
 yarn json -I -f package.json -e "this.module=\"dist/bundle.es.js\""
 yarn json -I -f package.json -e "this.types=\"dist/bundle.d.ts\""
@@ -23,8 +25,7 @@ yarn add -D \
   @typescript-eslint/parser \
   husky \
   rollup \
-  rollup-plugin-dts \
-  json \
-  npm-add-script
+  rollup-plugin-dts
+  
 
 npx husky install
