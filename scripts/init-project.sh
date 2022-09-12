@@ -20,6 +20,7 @@ npx npm-add-script -k prepare -v "husky install"
 
 yarn add -D \
   typescript \
+  ts-node \
   jest \
   ts-jest \
   @types/jest \
