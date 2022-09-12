@@ -2,11 +2,14 @@
 
 yarn init
 
-yarn global add json npm-add-script
+echo -e "\nexport PATH=\"$(yarn global bin):$PATH\"" >> ~/.bashrc
 
-yarn json -I -f package.json -e "this.main=\"dist/bundle.cjs.js\""
-yarn json -I -f package.json -e "this.module=\"dist/bundle.es.js\""
-yarn json -I -f package.json -e "this.types=\"dist/bundle.d.ts\""
+yarn global add json
+yarn global add npm-add-script
+
+npx json -I -f package.json -e "this.main=\"dist/bundle.cjs.js\""
+npx json -I -f package.json -e "this.module=\"dist/bundle.es.js\""
+npx json -I -f package.json -e "this.types=\"dist/bundle.d.ts\""
 
 npx npm-add-script -k build -v "tsc && yarn rollup -c"
 npx npm-add-script -k lint -v "eslint src --fix"
