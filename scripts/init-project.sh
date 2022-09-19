@@ -21,6 +21,7 @@ yarn add -D \
   ts-jest \
   @types/jest \
   eslint \
+  lint-staged \
   @typescript-eslint/eslint-plugin \
   @typescript-eslint/parser \
   husky \
