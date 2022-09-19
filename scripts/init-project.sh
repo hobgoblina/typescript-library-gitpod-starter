@@ -13,6 +13,8 @@ npx npm-add-script -k preversion -v "yarn test && yarn lint"
 npx npm-add-script -k prepublishOnly -v "yarn test && yarn lint"
 npx npm-add-script -k prepare -v "husky install"
 
+npx json -I -f package.json -e "this['lint-staged']={'*.ts':[\"eslint --fix\",\"git add\"]}"
+
 yarn add -D \
   typescript \
   ts-node \
