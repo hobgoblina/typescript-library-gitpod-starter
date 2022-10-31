@@ -8,7 +8,7 @@ What you get:
 - Bundling via Rollup (cjs, es, & type definition bundles)
 - CI via Github Actions
   - Testing for pushes to all branches
-  - Compiling, bundling, and publishing to NPM when new versions get pushed to main
+  - Compiling, bundling, and publishing to NPM when new package versions get pushed to main
 
 ### Getting started
 To get going, just fork this project and open it in [Gitpod](https://www.gitpod.io/docs/getting-started).
